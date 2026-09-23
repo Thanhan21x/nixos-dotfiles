@@ -94,6 +94,10 @@
     dockerCompat = true;
   };
 
+  hardware.graphics = {
+    enable = true;
+  };
+
   system.stateVersion = "26.05"; 
 
 }
